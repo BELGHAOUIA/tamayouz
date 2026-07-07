@@ -1,0 +1,44 @@
+# Python bytecode caching
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment configuration (Contains sensitive API keys/passwords)
+.env
+.env.*
+!.env.example
+
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+nosetests.xml
+coverage.xml
+
+# Linters and type checkers
+.mypy_cache/
+.ruff_cache/
+.black
+
+# Local databases (SQLite, etc.)
+*.db
+*.sqlite3
+
+# OS generated files
+.DS_Store
+Thumbs.db
