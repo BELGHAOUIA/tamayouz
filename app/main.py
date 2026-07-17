@@ -1,46 +1,28 @@
-from fastapi import FastAPI
-from starlette.middleware.cors import CORSMiddleware
+from fastapi import FastAPI, HTTPException
 
-from app.api.v1.routes import routers as v1_routers
-from app.core.config import configs
-from app.core.container import Container
-from app.util.class_object import singleton
+app = FastAPI()
 
+@app.get("/student")
+def get_students():
+    try:
+        response = supabase.table("student").select("*").execute()
+        return response.data
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
-@singleton
-class AppCreator:
-    def __init__(self):
-        # set app default
-        self.app = FastAPI(
-            title=configs.PROJECT_NAME,
-            openapi_url=f"{configs.API}/openapi.json",
-            version="0.0.1",
-        )
+@app.post("/student")
+def add_bulletin(bulletin):
+    add_institute()
+    add_student()
+    add_classLevel()
+    add_grades()
 
-        # set db and container
-        self.container = Container()
-        self.db = self.container.db()
-        # self.db.create_database()
+def add_student(student):
+    try:
+        response = supabase.table("student").create(student).execute()
+        return response.data
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
-        # set cors
-        if configs.BACKEND_CORS_ORIGINS:
-            self.app.add_middleware(
-                CORSMiddleware,
-                allow_origins=[str(origin) for origin in configs.BACKEND_CORS_ORIGINS],
-                allow_credentials=True,
-                allow_methods=["*"],
-                allow_headers=["*"],
-            )
-
-        # set routes
-        @self.app.get("/")
-        def root():
-            return "service is working"
-
-        self.app.include_router(v1_routers, prefix=configs.API_V1_STR)
-
-
-app_creator = AppCreator()
-app = app_creator.app
-db = app_creator.db
-container = app_creator.container
+def add_institute():
+    fo = 4
