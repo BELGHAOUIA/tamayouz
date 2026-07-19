@@ -1,6 +1,7 @@
+Pillow
 google-genai
-pillow
 python-decouple
 fastapi
 uvicorn
 supabase
+python-multipart
