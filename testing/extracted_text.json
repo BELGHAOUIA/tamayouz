@@ -1,0 +1,191 @@
+{
+  "studentName": "\u0627\u0645\u0644 \u0628\u0644\u063a\u0627\u0648\u064a\u0629",
+  "studentDateOfBirth": "2002/11/22",
+  "studentBirthPlace": "\u0628\u0646\u0632\u0631\u062a",
+  "studentUniqueIdentifier": "00170145",
+  "totalNumberOfStudents": 24,
+  "classLevel": "\u0631\u0627\u0628\u0639\u0629 \u0639\u0644\u0648\u0645 \u062a\u062c\u0631\u064a\u0628\u064a\u0629",
+  "classNumber": 2,
+  "schoolYear": "2021/2020",
+  "schoolName": "\u0645\u0639\u0647\u062f \u0631\u0623\u0633 \u0627\u0644\u062c\u0628\u0644",
+  "schoolState": "\u0628\u0646\u0632\u0631\u062a",
+  "principalOfSchool": "\u0632\u0647\u064a\u0631 \u0628\u0646\u062d\u0627\u062f\u064a",
+  "subjects": [
+    {
+      "subjectName": "\u062f\u0631\u0627\u0633\u0629 \u0646\u0635",
+      "teacherFullName": "\u0631\u064a\u0645 \u0627\u0644\u062d\u0645\u062f\u064a",
+      "schoolFirstPart": {
+        "subjectGradePointAverage": 18.5,
+        "rank": 2
+      },
+      "schoolSecondPart": {
+        "subjectGradePointAverage": 12.66,
+        "rank": 19
+      },
+      "yearly": {
+        "subjectGradePointAverageYear": 14.61,
+        "rank": 12
+      }
+    },
+    {
+      "subjectName": "\u0641\u0631\u0646\u0633\u064a\u0629",
+      "teacherFullName": "\u0645\u062d\u0645\u062f \u0627\u0644\u062d\u0628\u064a\u0628 \u0627\u0644\u0645\u0644\u0627\u062e",
+      "schoolFirstPart": {
+        "subjectGradePointAverage": 10.33,
+        "rank": 13
+      },
+      "schoolSecondPart": {
+        "subjectGradePointAverage": 10.75,
+        "rank": 19
+      },
+      "yearly": {
+        "subjectGradePointAverageYear": 10.61,
+        "rank": 17
+      }
+    },
+    {
+      "subjectName": "\u0623\u0646\u0642\u0644\u064a\u0632\u064a\u0629",
+      "teacherFullName": "\u0634\u0648\u0642\u064a \u0627\u0644\u0646\u0648\u0627\u0644\u064a",
+      "schoolFirstPart": {
+        "subjectGradePointAverage": 17.37,
+        "rank": 1
+      },
+      "schoolSecondPart": {
+        "subjectGradePointAverage": 17.37,
+        "rank": 4
+      },
+      "yearly": {
+        "subjectGradePointAverageYear": 17.37,
+        "rank": 3
+      }
+    },
+    {
+      "subjectName": "\u0641\u0644\u0633\u0641\u0629",
+      "teacherFullName": "\u0645\u062d\u0645\u062f \u0628\u0631\u0627\u0647\u0645\u064a\u0629",
+      "schoolFirstPart": {
+        "subjectGradePointAverage": 9.71,
+        "rank": 17
+      },
+      "schoolSecondPart": {
+        "subjectGradePointAverage": 10.42,
+        "rank": 18
+      },
+      "yearly": {
+        "subjectGradePointAverageYear": 10.19,
+        "rank": 18
+      }
+    },
+    {
+      "subjectName": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+      "teacherFullName": "\u0628\u0633\u0627\u0645 \u0639\u062b\u0645\u0627\u0646",
+      "schoolFirstPart": {
+        "subjectGradePointAverage": 7.5,
+        "rank": 16
+      },
+      "schoolSecondPart": {
+        "subjectGradePointAverage": 10.08,
+        "rank": 17
+      },
+      "yearly": {
+        "subjectGradePointAverageYear": 9.22,
+        "rank": 17
+      }
+    },
+    {
+      "subjectName": "\u0639\u0644\u0648\u0645 \u0641\u064a\u0632\u064a\u0627\u0626\u064a\u0629",
+      "teacherFullName": "\u0633\u0645\u064a\u0629 \u0627\u0644\u0642\u0644\u0627\u0644",
+      "schoolFirstPart": {
+        "subjectGradePointAverage": 11.83,
+        "rank": 8
+      },
+      "schoolSecondPart": {
+        "subjectGradePointAverage": 9.25,
+        "rank": 14
+      },
+      "yearly": {
+        "subjectGradePointAverageYear": 10.11,
+        "rank": 13
+      }
+    },
+    {
+      "subjectName": "\u0639\u0644\u0648\u0645 \u0627\u0644\u062d\u064a\u0627\u0629 \u0648 \u0627\u0644\u0623\u0631\u0636",
+      "teacherFullName": "\u0623\u0646\u064a\u0633\u0629 \u0645\u0631\u0627\u062f",
+      "schoolFirstPart": {
+        "subjectGradePointAverage": 11.5,
+        "rank": 13
+      },
+      "schoolSecondPart": {
+        "subjectGradePointAverage": 15.37,
+        "rank": 3
+      },
+      "yearly": {
+        "subjectGradePointAverageYear": 14.08,
+        "rank": 4
+      }
+    },
+    {
+      "subjectName": "\u062a\u0631\u0628\u064a\u0629 \u062a\u0634\u0643\u064a\u0644\u064a\u0629",
+      "teacherFullName": "\u0645\u0639\u0632 \u0646\u0648\u064a\u0631\u0629",
+      "schoolFirstPart": {
+        "subjectGradePointAverage": 17.33,
+        "rank": 4
+      },
+      "schoolSecondPart": {
+        "subjectGradePointAverage": 17.33,
+        "rank": 4
+      },
+      "yearly": {
+        "subjectGradePointAverageYear": 17.33,
+        "rank": 4
+      }
+    },
+    {
+      "subjectName": "\u0625\u0639\u0644\u0627\u0645\u064a\u0629",
+      "teacherFullName": "\u0623\u062d\u0644\u0627\u0645 \u0645\u0632\u0627\u062d",
+      "schoolFirstPart": {
+        "subjectGradePointAverage": 9.16,
+        "rank": 16
+      },
+      "schoolSecondPart": {
+        "subjectGradePointAverage": 8.18,
+        "rank": 14
+      },
+      "yearly": {
+        "subjectGradePointAverageYear": 8.51,
+        "rank": 15
+      }
+    },
+    {
+      "subjectName": "\u062a\u0631\u0628\u064a\u0629 \u0628\u062f\u0646\u064a\u0629",
+      "teacherFullName": "\u062d\u0627\u062a\u0645 \u0628\u0631\u0642 \u0627\u0644\u0644\u064a\u0644",
+      "schoolFirstPart": {
+        "subjectGradePointAverage": 17.0,
+        "rank": 12
+      },
+      "schoolSecondPart": {
+        "subjectGradePointAverage": 18.75,
+        "rank": 10
+      },
+      "yearly": {
+        "subjectGradePointAverageYear": 18.16,
+        "rank": 12
+      }
+    }
+  ],
+  "totalGrades": [
+    {
+      "schoolFirstPart": {
+        "gradeAverage": 11.95,
+        "rank": 12
+      },
+      "schoolSecondPart": {
+        "gradeAverage": 12.45,
+        "rank": 11
+      },
+      "yearAverage": {
+        "gradeAverage": 12.28,
+        "rank": 11
+      }
+    }
+  ]
+}

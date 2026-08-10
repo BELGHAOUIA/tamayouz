@@ -1,0 +1,7 @@
+Pillow
+google-genai
+python-decouple
+fastapi
+uvicorn
+supabase
+python-multipart
