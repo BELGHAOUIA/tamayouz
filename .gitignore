@@ -1,4 +1,6 @@
+*.json
 *.jpg
+
 # Python bytecode caching
 __pycache__/
 *.py[cod]
