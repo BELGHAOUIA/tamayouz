@@ -5,6 +5,7 @@ from app.services.bulletin_service import BulletinService
 from fastapi import FastAPI, UploadFile, Depends
 from app.core.database import supabase_client
 from app.core.ocr import gemini_client
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
